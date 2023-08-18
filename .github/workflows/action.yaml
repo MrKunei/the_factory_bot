@@ -21,6 +21,7 @@ jobs:
       POSTGRES_PASSWORD: ${{ secrets.POSTGRES_PASSWORD }}
       POSTGRES_NAME: ${{ secrets.POSTGRES_NAME }}
       BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+      SECRET_KEY: ${{ secrets.SECRET_KEY }}
     steps:
       - name: clone code
         uses: actions/checkout@v2
